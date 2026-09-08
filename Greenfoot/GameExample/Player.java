@@ -11,19 +11,16 @@ public class Player extends Actor
     
     private void checkKeys(){
         if(Greenfoot.isKeyDown("space"))
-        {
-            if(timer>30)
-            {
+            if(timer>30){
                 fireMissile();
                 timer = 0;
             }
-        }
-        if(Greenfoot.isKeyDown("a")){
+        
+        if(Greenfoot.isKeyDown("a"))
             setLocation(getX()-6,getY());
-        }
-        if(Greenfoot.isKeyDown("d")){
+        
+        if(Greenfoot.isKeyDown("d"))
             setLocation(getX()+6,getY());
-        }
     }
 
     private void fireMissile(){

@@ -5,11 +5,9 @@ public class Opponent extends Actor
 {
     public void act()
     {
-        
-        if(isAtEdge()){
+        if(isAtEdge())
             turn(180);
-        }
-        
+
         move(3);
         
     }

@@ -10,8 +10,8 @@ public class Missile extends Actor
             getWorld().removeObject(opponent);
             getWorld().removeObject(this);
         }
-        else if(isAtEdge()){
+        else if(isAtEdge())
             getWorld().removeObject(this);
-        }
+        
     }
 }
