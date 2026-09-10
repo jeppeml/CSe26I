@@ -14,6 +14,7 @@ public class Player extends Actor
             if(timer>30){
                 fireMissile();
                 timer = 0;
+                System.out.println("Missile fired :) timer:" + timer);
             }
         
         if(Greenfoot.isKeyDown("a"))

@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Child extends Actor
+public class Child extends Food
 {
     private int fattyness = 0;
     private int steps = 0;
@@ -28,7 +28,4 @@ public class Child extends Actor
         turn(rng);
     }
     
-    public int getFattyness(){
-        return fattyness;
-    }
 }
