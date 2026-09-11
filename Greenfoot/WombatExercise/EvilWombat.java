@@ -11,6 +11,7 @@ public class EvilWombat extends Actor
 {
     private int steps = 0;
     private int health = 100;
+    
 
     private double getDistance(Actor a1, Actor a2){
         int x1 = a1.getX();
